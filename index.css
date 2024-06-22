@@ -18,6 +18,9 @@ body {
 }
 
 /* Shared Styles */
+img {
+  max-width: 100%;
+}
 
 ul {
   list-style: none;
@@ -43,6 +46,7 @@ ul {
 }
 
 .logo {
+  flex-shrink: 1;
   height: 100%;
   cursor: pointer;
 }
@@ -61,4 +65,57 @@ ul {
   color: #181a18;
   cursor: pointer;
   text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+.bg-image {
+  background-image: url("./assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__text {
+  max-width: 450px;
+  background-color: #ffffff;
+  color: #181a18;
+  border: 2px solid red;
+}
+
+.future {
+  display: flex;
+  margin-top: 4.5em;
+  margin-bottom: 4.5em;
+}
+
+.future__text {
+  background-color: #f2f0f2;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.top,
+.bottom {
+  display: flex;
+}
+
+.image-content img {
+  width: 50%;
+}
+
+.image-content,
+.future__text {
+  width: 100%;
+}
+
+.text {
+  border: 2px solid red;
+  max-width: 450px;
+  margin: 7.5em 5em;
 }
