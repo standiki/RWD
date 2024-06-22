@@ -81,12 +81,43 @@ ul {
   background-position: center center;
 }
 
-.hero__text {
-  max-width: 450px;
+/*
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+} 
+*/
+
+.hero__badge {
   background-color: #ffffff;
   color: #181a18;
-  border: 2px solid red;
+  width: 30%;
+  padding: 1em;
+  position: absolute;
+  top: 140px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
+
+.hero__text {
+  max-width: 300px;
+}
+
+.hero h3 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Future */
 
 .future {
   display: flex;
@@ -96,8 +127,8 @@ ul {
 
 .future__text {
   background-color: #f2f0f2;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .top,
@@ -117,5 +148,5 @@ ul {
 .text {
   border: 2px solid red;
   max-width: 450px;
-  margin: 7.5em 5em;
+  margin: 5em 5em;
 }
