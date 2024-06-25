@@ -15,9 +15,14 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 100%;
+  color: #181a18;
 }
 
 /* Shared Styles */
+h3 {
+  font-size: 48px;
+}
+
 img {
   max-width: 100%;
 }
@@ -81,18 +86,6 @@ ul {
   background-position: center center;
 }
 
-/*
-.card--badge {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    background-color: white;
-    padding: 5px 7px;
-    border-radius: 2px;
-    font-weight: bold;
-} 
-*/
-
 .hero__badge {
   background-color: #ffffff;
   color: #181a18;
@@ -108,7 +101,7 @@ ul {
   max-width: 300px;
 }
 
-.hero h3 {
+.hero h2 {
   font-size: 2.5rem;
   margin-bottom: 24px;
 }
@@ -148,5 +141,11 @@ ul {
 .text {
   border: 2px solid red;
   max-width: 450px;
-  margin: 5em 5em;
+}
+
+/* Feature */
+
+.feature__card {
+  display: flex;
+  gap: 20px;
 }
