@@ -20,6 +20,11 @@ body {
 
 /* Shared Styles */
 
+h2,
+h3 {
+  margin-bottom: 0.1em;
+}
+
 h3 {
   font-size: 3rem;
 }
@@ -108,7 +113,6 @@ p {
 
 .hero h2 {
   font-size: 2.5rem;
-  margin-bottom: 24px;
 }
 
 .hero p {
@@ -123,10 +127,18 @@ p {
   margin-bottom: 4.5em;
 }
 
-.future__text {
+.future img {
+  width: 50%;
+}
+
+.content:nth-of-type(2) {
   background-color: #f2f0f2;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+.content {
+  width: 100%;
 }
 
 .top,
@@ -134,18 +146,9 @@ p {
   display: flex;
 }
 
-.image-content img {
-  width: 50%;
-}
-
-.image-content,
 .future__text {
-  width: 100%;
-}
-
-.text {
-  border: 2px solid red;
-  max-width: 450px;
+  max-width: 470px;
+  margin: 85px auto;
 }
 
 /* Feature */
