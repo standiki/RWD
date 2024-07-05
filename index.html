@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Flex Living | Home</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -15,10 +15,10 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="nav-header">
       <div class="container flex">
         <a href="#">
-          <img src="./assets/Logo.png" alt="Flex Living Logo" class="logo" />
+          <img src="./assets/Logo.png" alt="Logo" class="logo" />
         </a>
 
         <nav class="nav">
@@ -37,6 +37,9 @@
             </li>
           </ul>
         </nav>
+        <div class="nav__toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </header>
 
@@ -56,23 +59,40 @@
 
     <section class="future container">
       <div class="content">
-        <div class="top">
-          <img src="assets/Rectangle-top-left.png" alt="" />
-          <img src="assets/Rectangle-top-right.png" alt="" />
-        </div>
-        <div class="bottom">
-          <img src="assets/Rectangle-bottom-left.png" alt="" />
-          <img src="assets/Rectangle-bottom-right.png" alt="" />
-        </div>
+        <img
+          src="assets/futureImage1.png"
+          alt="future__image"
+          class="future__image"
+        />
+        <img
+          src="assets/futureImage2.png"
+          alt="future__image"
+          class="future__image"
+        />
+        <img
+          src="assets/futureImage3.png"
+          alt="future__image"
+          class="future__image"
+        />
+        <img
+          src="assets/futureImage4.png"
+          alt="future__image"
+          class="future__image"
+        />
       </div>
+
       <div class="content">
         <div class="future__text">
-          <h3>The future is flexible</h3>
-          <p>
-            We believe in a world where finding a home is just a click away.
-            Whether you’re selling your home, travelling for work or moving to a
-            new city. Just bring your bags, and we’ll handle the rest.
-          </p>
+          <div>
+            <h3>The future is flexible</h3>
+          </div>
+          <div>
+            <p>
+              We believe in a world where finding a home is just a click away.
+              Whether you’re selling your home, travelling for work or moving to
+              a new city. Just bring your bags, and we’ll handle the rest.
+            </p>
+          </div>
         </div>
       </div>
     </section>
