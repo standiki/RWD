@@ -97,12 +97,12 @@ p {
 }
 
 .bg-image {
-  background-image: url("assets/hero.png");
+  background-image: url("/assets/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 100%;
   /* background-attachment: fixed; */
+  width: 100%;
 }
 
 .hero__badge {
