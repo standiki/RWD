@@ -132,8 +132,8 @@ p {
 
 .future {
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 6.25em;
+  margin-bottom: 6.25em;
 }
 
 .content {
@@ -325,6 +325,11 @@ p {
   .hero__badge {
     top: 20px;
     width: 320px;
+  }
+
+  .future {
+    margin-top: 3.25em;
+    margin-bottom: 3.25em;
   }
 
   .content {
